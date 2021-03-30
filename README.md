@@ -11,14 +11,13 @@ To Run the application with VS Code:
 
 Open the Command Palette and run the task 'runTest', it will run all tests.
 
-It will execute these scenarios of the Login test case:
+Login test case scenarios:
 
-Login successful (positive/happy path).
+Login successful (positive/happy path), valid username and password,.
 Logout successful (positive/happy path).
-Login failed due to wrong credentials provided (negative).
+Login failed due to wrong credentials provided (negative), valid username, incorrect password.
 
 Further test cases which should be added having more time:
-
 
 1) Forgot password functionality.
 
