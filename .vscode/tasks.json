@@ -1,0 +1,31 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "verify",
+            "type": "shell",
+            "command": "mvn -B verify",
+            "group": "build"
+        },
+        {
+            "label": "test",
+            "type": "shell",
+            "command": "mvn -B test",
+            "group": "test"
+        },
+        {
+            "label": "compile",
+            "type": "shell",
+            "command": "mvn -B compile",
+            "group": "build"
+        },
+        {
+            "label": "runTest",
+            "type": "shell",
+            "command": "java -Dfile.encoding=UTF-8 @/var/folders/j5/3pqj2_996wqbp92qnt9_hd6h0000gq/T/cp_4bw6akqvmn8l2mnq7pi0yfwen.argfile Selenium.SysdigLogin",
+            "group": "build"
+        }, 
+    ]
+}
