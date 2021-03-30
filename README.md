@@ -17,6 +17,7 @@ Login successful (positive/happy path), valid username and password,.
 Logout successful (positive/happy path).
 Login failed due to wrong credentials provided (negative), valid username, incorrect password.
 
+
 Further test cases which should be added having more time:
 
 1) Forgot password functionality.
