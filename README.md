@@ -45,12 +45,14 @@ Further test cases which should be added having more time:
     - MS Edge
 
 Usability:
+
 Verify that once the login page is fully loaded, by default the username textbox has the focus.
 Verify it's possibile to navigate the different controls using the ‘Tab’ key on the keyboard.
 Verify that the username and password have the correct placeholder.
 
 Security:
-Verify that there is a limit on the number of unsuccessful login attempts (according to the system requirements)
+
+Verify that there is a limit on the number of unsuccessful login attempts (according to the system requirements).
 Check if the password can be copy-pasted or not.
 Check if the password is masked when typed in the password field.
 Verify the username and password have a maximum limit of character (possibly flood attack).
