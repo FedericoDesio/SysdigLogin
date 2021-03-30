@@ -46,22 +46,22 @@ Further test cases which should be added having more time:
 
 Usability:
 
-Verify that once the login page is fully loaded, by default the username textbox has the focus.
+    Verify that once the login page is fully loaded, by default the username textbox has the focus.
 
-Verify it's possibile to navigate the different controls using the ‘Tab’ key on the keyboard.
+    Verify it's possibile to navigate the different controls using the ‘Tab’ key on the keyboard.
 
-Verify that the username and password have the correct placeholder.
+    Verify that the username and password have the correct placeholder.
 
 Security:
 
-Verify that there is a limit on the number of unsuccessful login attempts (according to the system requirements).
+    Verify that there is a limit on the number of unsuccessful login attempts (according to the system requirements).
 
-Check if the password can be copy-pasted or not.
+    Check if the password can be copy-pasted or not.
 
-Check if the password is masked when typed in the password field.
+    Check if the password is masked when typed in the password field.
 
-Verify the username and password have a maximum limit of character (possibly flood attack).
+    Verify the username and password have a maximum limit of character (possibly flood attack).
 
-Verify whether the login page is vulnerable to SQL injection.
+    Verify whether the login page is vulnerable to SQL injection.
 
-Verify the session timeout after some minutes of inactivity (according to the system requirements)
+    Verify the session timeout after some minutes of inactivity (according to the system requirements)
