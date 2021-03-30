@@ -46,7 +46,7 @@ Further test cases which should be added having more time:
 
 Usability:
 
-    Verify that once the login page is fully loaded, by default the username textbox has the focus.
+    Verify that once the login page is fully loaded, by default the username textbox has the focus (and the cursor).
 
     Verify it's possibile to navigate the different controls using the ‘Tab’ key on the keyboard.
 
