@@ -20,31 +20,31 @@ Login failed due to wrong credentials provided (negative).
 Further test cases which should be added having more time:
 
 
-1) Forgot your password functionality.
+1) Forgot password functionality.
 
 2) Login using external accounts:
     - Google
     - SAML
     - OpenID
 
-3) Test he behaivor of the data center drop down against the system requirements:
+3) Verify the data center selection drop down and the system behaivor against the system requirements:
     - EU Central
     - US Est
     - US West
 
 4) Negative scenarios: verify that the User is not able to Login with 
-    - Black username
-    - Black password
-    - Invalid format username (not valid email format): check the system notification
+    - Empty username
+    - Empty password
+    - Invalid format username (not valid email format): check the system message
 
 5) Creation of a free trial account.
 
-6) Multi-browser compatibility:
+6) Multi-browser compatibility (execute all tests at least in the most popular Browsers):
     - Firefox
     - Safari
     - MS Edge
 
-Usability:
+Usability/Accessibility:
 
     Verify that once the login page is fully loaded, by default the username textbox has the focus (and the cursor).
 
