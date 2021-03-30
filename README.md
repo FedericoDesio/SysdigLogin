@@ -1,6 +1,6 @@
 GitHub page of the project:
 
-https://github.com/FedericoDesio/login-validation
+https://github.com/FedericoDesio/SysdigLogin
 
 Requirements:
 
